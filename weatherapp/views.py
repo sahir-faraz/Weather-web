@@ -5,11 +5,11 @@ import datetime
 
 def home(request):
     city = request.POST.get('city', 'raichur')
-    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
+    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=ur api id'
     weather_params = {'units': 'metric'}
     
-    api_key = 'AIzaSyAWWSyIi64k6-Cr9_SU5BIdJMZhTMpXzx0'
-    search_engine_id = '77ef9b2c4a2654fc2'
+    api_key = 'id'
+    search_engine_id = 'id'
     query = f"{city} 1920x1080"
     start = 1
     search_type = 'image'
